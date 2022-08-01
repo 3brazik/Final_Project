@@ -12,6 +12,7 @@ resource "google_compute_firewall" "allow_ssh_firewall" {
   ]
  
   allow {
+    
     protocol  = "tcp"
     ports     = ["22"]
   }
